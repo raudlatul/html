@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+    <h2>Form Pendaftaran: </h2>
+    <form>
+        <label>NIK</label>
+        <input type="text" name="NIK" placeholder="nik"><br>
+
+        <label>Nama Lengkap</label>
+        <input type="text" name="namalengkap" placeholder="Nama Lengkap"><br>
+
+        <label>Tanggal Lahir</label>
+        <input type="date" name="tgl_lahir"><br>
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Email"><br>
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Password"><br>
+
+        <label>Jenis Kelamin</label>
+        <input type="radio" id="jk" name="jk" value="laki-laki">
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" id="jk" name="jk" value="perempuan">
+        <label for="perempuan">Perempuan</label><br>
+
+        <label>Agama</label>
+        <select name="agama">
+            <option value="Hindu">Hindu</option>
+            <option value="Islam">Islam</option>
+            <option value="Buddha">Buddha</option>
+            <option value="Kristen">Kristen Protestan</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Konghucu">Konghucu</option>
+        </select>
+        <br>
+        <label>Hobi</label><br>
+        <input type="checkbook" id="sepeda" name="sepeda" value="Bersepeda">
+        <label for="sepeda"> Bersepeda</label><br>
+        <input type="checkbook" id="sepakbola" name="sepakbola" value="sepakbola">
+        <label for="sepakboal"> SepakBola</label><br>
+        <input type="checkbook" id="baca" name="baca" value="Baca">
+        <label for="baca"> Membaca</label><br>
+
+        <label>File Foto</label>
+        <input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+
+       <br>
+
+       <label>Mesin Pencarian :</label>
+       <input type="search" name="cari" placeholder="Kata Pencarian..." >
+       <button>Cari</button><br>
+
+       <label>Input Url</label>
+       <input type="url" name="url"><br>
+
+       <label>Alamat:</label><br>
+       <textarea rows="5" cols="20" name="alamat"></textarea> <br>
+
+       <label>Jumlah Barang Yang Dibeli:</label>
+       <input type="number" name="number"><br>
+
+       <button>kirim</button>
+     </form>
+</body>
+</html>
